@@ -1,7 +1,3 @@
----
-permalink: README.html
----
-
 # Hollow Knight Skin to Nintendo Switch
 
 [![](https://img.shields.io/badge/Hollow%20Knight-Skin%20Download-orange?style=for-the-badge)](https://drive.google.com/drive/folders/1DsV8DLH9cR9kU6-HRVgOhS99Pl6NXedr?usp=sharing)
