@@ -10,16 +10,22 @@ def main():
     out = Path(args.output)
     out.mkdir(exist_ok=True)
 
-    for asset in base_path.rglob("*.assets"):
+    for asset in base_path.rglob("*"):
+        if asset.is_dir():
+            continue
+
         print(f"=> Reading {asset}...", end="", flush=True)
-        e = UnityPy.load(str(asset))
+        try:
+            e = UnityPy.load(str(asset))
+        except AttributeError:
+            print("*")
 
         for obj in e.objects:
-            data = obj.read()
-            if data.type == "Texture2D":
+            if obj.type in ["Texture2D", "Sprite"]:
+                data = obj.read()
                 try:
                     data.image.save(
-                        out / f"{asset.stem}_{data.name}_{data.path_id}.png")
+                        out / f"{asset.name}_{data.name}_{data.path_id}.png")
                 except SystemError:
                     print("*", end="", flush=True)
 

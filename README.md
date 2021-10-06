@@ -80,12 +80,8 @@ $ python hk-skin-nx.py \
 ## TODOs
 
 - [ ] Support for soul orb
-- [ ] Support for charms
-
-## Example pictures
-
-TBD
 
 ## References
 
 - [Custom Knight for PC](https://github.com/PrashantMohta/HollowKnight.CustomKnight)
+- [UnityPy](https://pypi.org/project/UnityPy/)
