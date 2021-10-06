@@ -3,7 +3,6 @@ from pathlib import Path
 
 import UnityPy
 
-
 GAMEID = "0100633007D48000"
 MAPPING = {
     ("resources", "atlas0", "359"): "Knight",
@@ -38,7 +37,7 @@ def main():
 
     skin_path = Path(args.skin)
     mod_files = {
-        Path(args.dump_path, "romfs", "Data", f"{o[0]}.assets")
+        Path(args.dump_path, "Data", f"{o[0]}.assets")
         for o in MAPPING
     }
     output = Path(args.output, skin_path.stem, GAMEID, "romfs", "Data")
@@ -65,7 +64,7 @@ def modify_file(fpath, skin_path, base_out):
         if key in MAPPING:
             skin_file = skin_path / f"{MAPPING[key]}.png"
             if skin_file.exists():
-                print(f"=> Applying '{skin_file.stem}'texture {data.type}...")
+                print(f"=> Applying '{skin_file.stem}'texture...")
                 data.image = str(skin_file)
                 data.save()
                 has_modification = True

@@ -5,7 +5,10 @@ textures/
 nx-skins/
 
 # HK dump
-0100633007D48800/
+0100633007D48000/
+
+# Release
+release/
 
 # Visual Studio Code
 .vscode/
