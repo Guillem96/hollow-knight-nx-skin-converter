@@ -26,15 +26,15 @@ With LayeredFS you can replace romfs game files with your own. We take advantage
 
 1. Navigate to this [drive folder](https://drive.google.com/drive/folders/1DsV8DLH9cR9kU6-HRVgOhS99Pl6NXedr?usp=sharing) and download the skin you prefer. For example the Tanjirou one.
 
-<img src="images/drive-download.jpg" width=300>
+<img src="images/drive-download.jpg" width=500>
 
 2. Unzip the skin. Once unzipped you should see this folder:
 
-<img src="images/unzipped-skin.jpg" width=300>
+<img src="images/unzipped-skin.jpg" width=400>
 
 3. Copy the `0100633007D48000` folder in your sd card inside the `atmosphere/contents`.
 
-<img src="images/atmosphere-contents.jpg" width=300>
+<img src="images/atmosphere-contents.jpg" width=400>
 
 3. Restart your switch using atmosphere.
 

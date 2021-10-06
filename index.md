@@ -1,4 +1,3 @@
-# Hollow Knight Skin to Nintendo Switch
 
 [![](https://img.shields.io/badge/Hollow%20Knight-Skin%20Download-orange?style=for-the-badge)](https://drive.google.com/drive/folders/1DsV8DLH9cR9kU6-HRVgOhS99Pl6NXedr?usp=sharing)
 
@@ -19,23 +18,23 @@ Install Atmosphere at your own risk.
 
 ## Install a Custom Knight Skin
 
-1. Navigate to this [drive folder](https://drive.google.com/drive/folders/1DsV8DLH9cR9kU6-HRVgOhS99Pl6NXedr?usp=sharing) and download the skin you prefer. For example the Tanjirou one.
+1. Navigate to this [drive folder](https://drive.google.com/drive/folders/1DsV8DLH9cR9kU6-HRVgOhS99Pl6NXedr?usp=sharing) and download the skin you prefer. For example the Tanjirou one. <br> <img src="images/drive-download.jpg" width=500>
 
-<img src="images/drive-download.jpg" width=300>
+2. Unzip the skin. Once unzipped you should see this folder: <br> <img src="images/unzipped-skin.jpg" width=400>
 
-2. Unzip the skin. Once unzipped you should see this folder:
-
-<img src="images/unzipped-skin.jpg" width=300>
-
-3. Copy the `0100633007D48000` folder in your sd card inside the `atmosphere/contents`.
-
-<img src="images/atmosphere-contents.jpg" width=300>
+3. Copy the `0100633007D48000` folder in your sd card inside the `atmosphere/contents`. <br> <img src="images/atmosphere-contents.jpg" width=400>
 
 3. Restart your switch using atmosphere.
 
-
 4. Launch the game and enjoy the skin!
 
-<img src="images/tanjirou-skin-nx.jpg" width=400>
+<img src="images/tanjirou-skin-nx.jpg" width=500>
 
-Video tutorial: TBD (comming soon)
+### Video Tutorial
+
+Video tutorial: TBD (coming soon)
+
+## Learn more
+
+To learn more about the technical details about the PC Skins conversion to 
+Switch format refer to the [repository README.md](https://github.com/Guillem96/hollow-knight-nx-skin-converter/blob/master/README.md).
