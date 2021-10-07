@@ -32,7 +32,9 @@ Install Atmosphere at your own risk.
 
 ### Video Tutorial
 
-Video tutorial: TBD (coming soon)
+Sorry for the video quality, I am not used to do this kind of things 😁.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y40s2hmVgfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Learn more
 
